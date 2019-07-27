@@ -1,3 +1,8 @@
+/*Calculate the values of counters after applying all alternating operations: 
+increase counter by 1; set value of all counters to current maximum. */ 
+
+//Detected time complexity: O(N + M)
+
 void init_max(int *ptr,int size, int set_to_max);
 
 struct Results solution(int N, int A[], int M) {
