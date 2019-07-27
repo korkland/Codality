@@ -16,6 +16,7 @@ leaves appear at every position across the river from 1 to X
 positions from 1 to X are covered by leaves). You may assume 
 that the speed of the current in the river is negligibly small, 
 i.e. the leaves do not change their positions once they fall in the river.
+Comp: O(N)
 */
 int path_to_X(int *B,int X);
 int solution(int X, int A[], int N) {
